@@ -1,0 +1,35 @@
+nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav .logo{
+    padding: 0 20px;
+    font-size: 1.7em;
+    font-weight: bold;
+  
+  }
+  
+  nav ul{
+    padding: 0;
+    list-style: none;
+    /* background-color: blue; */
+    display: flex;
+  }
+  
+  nav li{ 
+    margin: 0 15px;
+    font-size: 1.2em;
+  }
+
+  .searchbox{
+      border: none;
+      margin: 40px;
+      background-color: brown;
+      width: 40%;
+      height: 60%;
+      color: rgb(255, 255, 255);
+      font-size: 1.2em;
+  }
